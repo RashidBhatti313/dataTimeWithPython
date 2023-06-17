@@ -5,6 +5,6 @@ print(n.strftime("%Y-%m-%d %H:%M:%S"))
 
 
 import calendar
-y = int(input("Input the year : "))
-m = int(input("Input the month: "))
+y = int(input("Input thr year : "))
+m = int(input("Input the month : "))
 print(calendar.month(y, m))
